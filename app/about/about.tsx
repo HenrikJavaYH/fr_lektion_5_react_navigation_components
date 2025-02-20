@@ -1,7 +1,9 @@
+import { Link } from "react-router";
+
 export function About() {
     return (
         <div>
-            <p>Navi suces to about page</p>
+            <Link to={"/"}>Navigate back to home page</Link>
         </div>
     )
 }
